@@ -1,0 +1,38 @@
+.card {
+  border: 1px #333 solid;
+  padding: 1rem; 
+  margin: 1rem;
+  display: grid;
+  box-shadow: 0.1rem 0.1rem 0.1rem #333;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.card p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  background-color: none;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem;
+  border: 1px #333 solid;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: white;
+}
+
+.card span {
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 0.4rem;
+  margin: 1rem auto;
+  background: green;
+  color: white;
+}

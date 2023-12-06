@@ -1,0 +1,36 @@
+{
+  "name": "express-starter",
+  "env": {
+    "NODE_ENV": {
+      "description": "Environment where the application will run",
+      "value": "production"
+    },
+    "CORS_ALLOWED_ORIGIN": {
+      "description": "Allowed cors origins separated with comma",
+      "value": "http://localhost:3000"
+    },
+    "JWT_SECRET_KEY": {
+      "description": "Secret key for JWT",
+      "generator": "secret"
+    },
+    "DB_HOST": {
+      "description": "PostgreSQL database host"
+    },
+    "DB_PORT": {
+      "description": "PostgreSQL database port",
+      "value": "5432"
+    },
+    "DB_USER": {
+      "description": "PostgreSQL database user"
+    },
+    "DB_PASSWORD": {
+      "description": "PostgreSQL database user password"
+    },
+    "DB_NAME": {
+      "description": "PostgreSQL database name"
+    }
+  },
+  "options": {
+    "allow-unauthenticated": true
+  }
+}

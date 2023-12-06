@@ -1,0 +1,12 @@
+.container {
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.container input {
+  font-size: larger;
+  text-align: center;
+  margin-right: 1rem;
+}

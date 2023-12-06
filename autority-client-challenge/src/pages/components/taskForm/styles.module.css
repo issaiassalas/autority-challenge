@@ -1,0 +1,51 @@
+.formControl {
+  border: 1px #333 solid;
+  padding: 2rem; 
+  margin: 1rem;
+  display: grid;
+  box-shadow: 1px 1px 2px black;
+  font-size: large;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  row-gap: 1rem;
+}
+
+.formControl input {
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px #333 solid;
+  border-radius: 10px;
+}
+
+.formControl textarea {
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px #333 solid;
+  border-radius: 10px;
+}
+
+.formControl button {
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px #333 solid;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.formControl button:hover {
+  background-color: green;
+}
+
+.formControl h2 {
+  padding: auto;
+}
+
+.formControl li {
+  list-style: none;
+  color: red;
+}
+
+.formContainer {
+  width: 50%;
+  margin: auto;
+}
